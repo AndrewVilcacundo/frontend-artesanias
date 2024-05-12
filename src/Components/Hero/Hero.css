@@ -1,6 +1,6 @@
 .hero{
     height: 100vh;
-    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    background: linear-gradient(180deg, #A75430, #e1ffea22 60%);
     display: flex;
 
 }
@@ -40,9 +40,19 @@
     height: 70px;
     border-radius: 75px;
     margin-top: 30px;
-    background: #ff4141;
+    background: #A75430;
     color: white;
     font-size: 22px;
     font-weight: 500;
-    
+}
+.hero-latest-btn img{
+    width: 40px;
+    height: 30px;
+}
+.hero-right img{
+    width: 1200px;
+    height: 900px;
+    position: relative;
+    right: 120px;
+    bottom: -120px;
 }

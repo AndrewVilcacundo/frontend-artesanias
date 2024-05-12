@@ -12,7 +12,6 @@ import canastao from "./canastao.jpg"
 import canastao1 from "./canastao1.jpg"
 import canastasminis from "./canastasminis.jpg"
 import canastasminis1 from "./canastasminis1.jpg"
-import canastasminis2 from "./canastasminis2.jpg"
 import canastasminis3 from "./canastasminis3.jpg"
 import canastasminis4 from "./canastasminis4.jpg"
 import canasto from "./canasto.jpg"
@@ -142,7 +141,7 @@ let all_product = [
         id: 13,
         name: "Canastas pequeñas",
         category: "Paja toquilla",
-        image: canastasminis2,
+        image: canastasminis1,
         new_price: 50.0,
         old_price: 80.5,
     },
@@ -299,5 +298,7 @@ let all_product = [
         old_price: 80.5,
     },
     
-]
+];
+
+export default all_product;
 
